@@ -16,5 +16,4 @@ def create_app(test_config=None):
   # register routes
   app.register_blueprint(home)
   app.register_blueprint(dashboard)
-
   return app
